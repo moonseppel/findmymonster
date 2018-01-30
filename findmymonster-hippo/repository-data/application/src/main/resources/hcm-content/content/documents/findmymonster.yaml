@@ -1,7 +1,8 @@
 /content/documents/findmymonster:
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: ad1e1742-777b-47ba-b39b-c5f033581b48
   hippo:name: Find My Monster
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814
-  hippotranslation:locale: en
+  hippotranslation:locale: de

@@ -3,9 +3,11 @@ definitions:
     /hippo:namespaces/findmymonster/basedocument:
       jcr:primaryType: hipposysedit:templatetype
       jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: bcb6f0c8-3a42-40d6-8576-03732c9a66d2
       /hipposysedit:nodetype:
         jcr:primaryType: hippo:handle
         jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 179b44da-4bd8-462d-ad6a-9e00d6bf0992
         /hipposysedit:nodetype:
           jcr:primaryType: hipposysedit:nodetype
           jcr:mixinTypes: ['hipposysedit:remodel']

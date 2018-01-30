@@ -1,0 +1,83 @@
+/content/documents/findmymonster/monster:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: f00060b3-4a51-47e4-86aa-6056ba8799c0
+  hippo:name: Monster
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 68a43591-f837-47fd-b89c-b99a515dbf24
+  hippotranslation:locale: de
+  /ork:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: a819e938-338e-47d8-9199-3aa6d2ea7f20
+    hippo:name: Ork
+    /ork[1]:
+      jcr:primaryType: findmymonster:generalmonsterdescription
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c70bf71a-1a26-4835-b2cb-c010091ce45c
+      findmymonster:name: Ork
+      hippo:availability: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-01-30T10:25:40.571+01:00
+      hippostdpubwf:lastModificationDate: 2018-01-30T10:28:19.515+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: cb39bbe1-174d-4974-8eb2-b6c0cd9b234e
+      hippotranslation:locale: de
+      /findmymonster:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Diese wilde Kreatur sieht wie&nbsp;die tierhafte Version eines primitiven Menschen aus, hat&nbsp;eine grau-grüne Haut und&nbsp;fettiges schwarzes Haar.</p>
+
+          <p>Abgesehen von&nbsp;ihrer brutalen Stärke und&nbsp;ihrer vergleichsweise niedrigen Intelligenz besteht der&nbsp;Hauptunterschied zwischen Orks und&nbsp;zivilisierten Humanoiden in&nbsp;der Haltung. Die&nbsp;Orks haben eine brutale und&nbsp;aggressive Kultur, in&nbsp;der die&nbsp;Stärksten den&nbsp;Rest durch Furcht und&nbsp;Zwang beherrschen. Sie&nbsp;nehmen sich mit&nbsp;Gewalt, was&nbsp;sie wollen, und&nbsp;denken sich nichts dabei, sollte sie&nbsp;keiner aufhalten, ganze Dörfer abzuschlachten oder zu&nbsp;versklaven. Sie&nbsp;verlieren keine Zeit für&nbsp;Höflichkeiten und&nbsp;umständliches Getue. Ihre Lager und&nbsp;Dörfer sind dreckig und&nbsp;marode, überall prügeln sich Betrunkene, finden Schaukämpfe statt oder man&nbsp;wird Zeuge anderer grausamer Formen der&nbsp;Unterhaltung. Orks mangelt es&nbsp;an der&nbsp;Geduld, die&nbsp;man für&nbsp;die Landwirtschaft braucht, und&nbsp;sie sind gerade noch in&nbsp;der Lage, die&nbsp;robustesten und&nbsp;zähesten Tiere zu&nbsp;züchten. Für&nbsp;gewöhnlich finden sie&nbsp;es&nbsp;leichter, sich einfach zu&nbsp;nehmen, was&nbsp;andere errichtet haben, statt selbst etwas zu&nbsp;erschaffen. Orks sind arrogant und&nbsp;aufbrausend, sollte man&nbsp;sie herausfordern. Dabei machen sie&nbsp;sich über Ehre nur&nbsp;Gedanken, wenn es&nbsp;ihnen zum&nbsp;Vorteil gereicht.</p>
+
+          <p>Ein&nbsp;erwachsener männlicher Ork&nbsp;ist ungefähr 1,80 m&nbsp;groß und&nbsp;wiegt 210 Pfund. Orks und Menschen&nbsp;pflanzen sich teils miteinander fort, doch meist ist&nbsp;dies das&nbsp;Ergebnis von&nbsp;Plünderungen und&nbsp;Sklavenjagden statt von&nbsp;freiwilligen Verbindungen. Viele Orkstämme züchten Halb-Orks und&nbsp;ziehen sie&nbsp;als Artgenossen auf, da&nbsp;der schlaue Nachwuchs exzellente Strategen und&nbsp;Anführer abgibt.</p>
+
+          <p><em>(kopiert von der <a href="http://prd.5footstep.de/Monsterhandbuch/Ork">deutschen Pathfinder SRD</a>)</em></p>
+    /ork[2]:
+      jcr:primaryType: findmymonster:generalmonsterdescription
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: b6f5f0ba-29ee-4599-819c-2f5942d266a4
+      findmymonster:name: Ork
+      hippo:availability: [preview]
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-01-30T10:25:40.571+01:00
+      hippostdpubwf:lastModificationDate: 2018-01-30T10:29:39.801+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: cb39bbe1-174d-4974-8eb2-b6c0cd9b234e
+      hippotranslation:locale: de
+      /findmymonster:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Diese wilde Kreatur sieht wie&nbsp;die tierhafte Version eines primitiven Menschen aus, hat&nbsp;eine grau-grüne Haut und&nbsp;fettiges schwarzes Haar.</p>
+
+          <p>Abgesehen von&nbsp;ihrer brutalen Stärke und&nbsp;ihrer vergleichsweise niedrigen Intelligenz besteht der&nbsp;Hauptunterschied zwischen Orks und&nbsp;zivilisierten Humanoiden in&nbsp;der Haltung. Die&nbsp;Orks haben eine brutale und&nbsp;aggressive Kultur, in&nbsp;der die&nbsp;Stärksten den&nbsp;Rest durch Furcht und&nbsp;Zwang beherrschen. Sie&nbsp;nehmen sich mit&nbsp;Gewalt, was&nbsp;sie wollen, und&nbsp;denken sich nichts dabei, sollte sie&nbsp;keiner aufhalten, ganze Dörfer abzuschlachten oder zu&nbsp;versklaven. Sie&nbsp;verlieren keine Zeit für&nbsp;Höflichkeiten und&nbsp;umständliches Getue. Ihre Lager und&nbsp;Dörfer sind dreckig und&nbsp;marode, überall prügeln sich Betrunkene, finden Schaukämpfe statt oder man&nbsp;wird Zeuge anderer grausamer Formen der&nbsp;Unterhaltung. Orks mangelt es&nbsp;an der&nbsp;Geduld, die&nbsp;man für&nbsp;die Landwirtschaft braucht, und&nbsp;sie sind gerade noch in&nbsp;der Lage, die&nbsp;robustesten und&nbsp;zähesten Tiere zu&nbsp;züchten. Für&nbsp;gewöhnlich finden sie&nbsp;es&nbsp;leichter, sich einfach zu&nbsp;nehmen, was&nbsp;andere errichtet haben, statt selbst etwas zu&nbsp;erschaffen. Orks sind arrogant und&nbsp;aufbrausend, sollte man&nbsp;sie herausfordern. Dabei machen sie&nbsp;sich über Ehre nur&nbsp;Gedanken, wenn es&nbsp;ihnen zum&nbsp;Vorteil gereicht.</p>
+
+          <p>Ein&nbsp;erwachsener männlicher Ork&nbsp;ist ungefähr 1,80 m&nbsp;groß und&nbsp;wiegt 210 Pfund. Orks und Menschen&nbsp;pflanzen sich teils miteinander fort, doch meist ist&nbsp;dies das&nbsp;Ergebnis von&nbsp;Plünderungen und&nbsp;Sklavenjagden statt von&nbsp;freiwilligen Verbindungen. Viele Orkstämme züchten Halb-Orks und&nbsp;ziehen sie&nbsp;als Artgenossen auf, da&nbsp;der schlaue Nachwuchs exzellente Strategen und&nbsp;Anführer abgibt.</p>
+
+          <p><em>(kopiert von der <a href="http://prd.5footstep.de/Monsterhandbuch/Ork">deutschen Pathfinder SRD</a>)</em></p>
+    /ork[3]:
+      jcr:primaryType: findmymonster:generalmonsterdescription
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 66786eda-61b9-446f-9d7e-f280041a547d
+      findmymonster:name: Ork
+      hippo:availability: [live]
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-01-30T10:25:40.571+01:00
+      hippostdpubwf:lastModificationDate: 2018-01-30T10:29:39.801+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-01-30T10:29:44.354+01:00
+      hippotranslation:id: cb39bbe1-174d-4974-8eb2-b6c0cd9b234e
+      hippotranslation:locale: de
+      /findmymonster:description:
+        jcr:primaryType: hippostd:html
+        hippostd:content: |-
+          <p>Diese wilde Kreatur sieht wie&nbsp;die tierhafte Version eines primitiven Menschen aus, hat&nbsp;eine grau-grüne Haut und&nbsp;fettiges schwarzes Haar.</p>
+
+          <p>Abgesehen von&nbsp;ihrer brutalen Stärke und&nbsp;ihrer vergleichsweise niedrigen Intelligenz besteht der&nbsp;Hauptunterschied zwischen Orks und&nbsp;zivilisierten Humanoiden in&nbsp;der Haltung. Die&nbsp;Orks haben eine brutale und&nbsp;aggressive Kultur, in&nbsp;der die&nbsp;Stärksten den&nbsp;Rest durch Furcht und&nbsp;Zwang beherrschen. Sie&nbsp;nehmen sich mit&nbsp;Gewalt, was&nbsp;sie wollen, und&nbsp;denken sich nichts dabei, sollte sie&nbsp;keiner aufhalten, ganze Dörfer abzuschlachten oder zu&nbsp;versklaven. Sie&nbsp;verlieren keine Zeit für&nbsp;Höflichkeiten und&nbsp;umständliches Getue. Ihre Lager und&nbsp;Dörfer sind dreckig und&nbsp;marode, überall prügeln sich Betrunkene, finden Schaukämpfe statt oder man&nbsp;wird Zeuge anderer grausamer Formen der&nbsp;Unterhaltung. Orks mangelt es&nbsp;an der&nbsp;Geduld, die&nbsp;man für&nbsp;die Landwirtschaft braucht, und&nbsp;sie sind gerade noch in&nbsp;der Lage, die&nbsp;robustesten und&nbsp;zähesten Tiere zu&nbsp;züchten. Für&nbsp;gewöhnlich finden sie&nbsp;es&nbsp;leichter, sich einfach zu&nbsp;nehmen, was&nbsp;andere errichtet haben, statt selbst etwas zu&nbsp;erschaffen. Orks sind arrogant und&nbsp;aufbrausend, sollte man&nbsp;sie herausfordern. Dabei machen sie&nbsp;sich über Ehre nur&nbsp;Gedanken, wenn es&nbsp;ihnen zum&nbsp;Vorteil gereicht.</p>
+
+          <p>Ein&nbsp;erwachsener männlicher Ork&nbsp;ist ungefähr 1,80 m&nbsp;groß und&nbsp;wiegt 210 Pfund. Orks und Menschen&nbsp;pflanzen sich teils miteinander fort, doch meist ist&nbsp;dies das&nbsp;Ergebnis von&nbsp;Plünderungen und&nbsp;Sklavenjagden statt von&nbsp;freiwilligen Verbindungen. Viele Orkstämme züchten Halb-Orks und&nbsp;ziehen sie&nbsp;als Artgenossen auf, da&nbsp;der schlaue Nachwuchs exzellente Strategen und&nbsp;Anführer abgibt.</p>
+
+          <p><em>(kopiert von der <a href="http://prd.5footstep.de/Monsterhandbuch/Ork">deutschen Pathfinder SRD</a>)</em></p>

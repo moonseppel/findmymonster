@@ -3,3 +3,4 @@ definitions:
     /hippo:namespaces/findmymonster:
       jcr:primaryType: hipposysedit:namespace
       jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 4a60fdd2-b88f-490d-85da-91e0aabfdc91
