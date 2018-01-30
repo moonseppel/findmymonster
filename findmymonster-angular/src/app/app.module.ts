@@ -3,16 +3,23 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { MonsterDisplayComponent } from './monster-display/monster-display.component';
+import {HippoContentService} from "./services/hippo-content.service";
+import {HttpClientModule} from "@angular/common/http";
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MonsterDisplayComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    HippoContentService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
