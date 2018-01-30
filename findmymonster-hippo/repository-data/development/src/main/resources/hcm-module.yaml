@@ -1,0 +1,7 @@
+group: 
+  name: findmymonster
+  after: hippo-cms
+project: findmymonster
+module: 
+  name: findmymonster-repository-data-development
+  after: findmymonster-repository-data-application

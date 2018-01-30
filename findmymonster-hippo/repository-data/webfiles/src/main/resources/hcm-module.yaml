@@ -1,0 +1,5 @@
+group: 
+  name: findmymonster
+  after: hippo-cms
+project: findmymonster
+module: findmymonster-repository-data-webfiles
