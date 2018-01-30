@@ -1,0 +1,31 @@
+{
+  "offset": 0,
+  "max": 100,
+  "count": 1,
+  "total": 1,
+  "more": false,
+  "items": [
+    {
+      "name": "ork",
+      "id": "a819e938-338e-47d8-9199-3aa6d2ea7f20",
+      "link": {
+        "type": "local",
+        "id": "a819e938-338e-47d8-9199-3aa6d2ea7f20",
+        "url": "http://localhost:8080/site/api/documents/a819e938-338e-47d8-9199-3aa6d2ea7f20"
+      },
+      "type": "findmymonster:generalmonsterdescription",
+      "locale": "de",
+      "pubState": "published",
+      "pubwfCreationDate": "2018-01-30T10:25:40.571+01:00",
+      "pubwfLastModificationDate": "2018-01-30T10:29:39.801+01:00",
+      "pubwfPublicationDate": "2018-01-30T10:29:44.354+01:00",
+      "items": {
+        "findmymonster:name": "Ork",
+        "findmymonster:description": {
+          "type": "hippostd:html",
+          "content": "<p>Diese wilde Kreatur sieht wie&#160;die tierhafte Version eines primitiven Menschen aus, hat&#160;eine grau-gr&#252;ne Haut und&#160;fettiges schwarzes Haar.</p>\n\n<p>Abgesehen von&#160;ihrer brutalen St&#228;rke und&#160;ihrer vergleichsweise niedrigen Intelligenz besteht der&#160;Hauptunterschied zwischen Orks und&#160;zivilisierten Humanoiden in&#160;der Haltung. Die&#160;Orks haben eine brutale und&#160;aggressive Kultur, in&#160;der die&#160;St&#228;rksten den&#160;Rest durch Furcht und&#160;Zwang beherrschen. Sie&#160;nehmen sich mit&#160;Gewalt, was&#160;sie wollen, und&#160;denken sich nichts dabei, sollte sie&#160;keiner aufhalten, ganze D&#246;rfer abzuschlachten oder zu&#160;versklaven. Sie&#160;verlieren keine Zeit f&#252;r&#160;H&#246;flichkeiten und&#160;umst&#228;ndliches Getue. Ihre Lager und&#160;D&#246;rfer sind dreckig und&#160;marode, &#252;berall pr&#252;geln sich Betrunkene, finden Schauk&#228;mpfe statt oder man&#160;wird Zeuge anderer grausamer Formen der&#160;Unterhaltung. Orks mangelt es&#160;an der&#160;Geduld, die&#160;man f&#252;r&#160;die Landwirtschaft braucht, und&#160;sie sind gerade noch in&#160;der Lage, die&#160;robustesten und&#160;z&#228;hesten Tiere zu&#160;z&#252;chten. F&#252;r&#160;gew&#246;hnlich finden sie&#160;es&#160;leichter, sich einfach zu&#160;nehmen, was&#160;andere errichtet haben, statt selbst etwas zu&#160;erschaffen. Orks sind arrogant und&#160;aufbrausend, sollte man&#160;sie herausfordern. Dabei machen sie&#160;sich &#252;ber Ehre nur&#160;Gedanken, wenn es&#160;ihnen zum&#160;Vorteil gereicht.</p>\n\n<p>Ein&#160;erwachsener m&#228;nnlicher Ork&#160;ist ungef&#228;hr 1,80 m&#160;gro&#223; und&#160;wiegt 210 Pfund. Orks und Menschen&#160;pflanzen sich teils miteinander fort, doch meist ist&#160;dies das&#160;Ergebnis von&#160;Pl&#252;nderungen und&#160;Sklavenjagden statt von&#160;freiwilligen Verbindungen. Viele Orkst&#228;mme z&#252;chten Halb-Orks und&#160;ziehen sie&#160;als Artgenossen auf, da&#160;der schlaue Nachwuchs exzellente Strategen und&#160;Anf&#252;hrer abgibt.</p>\n\n<p><em>(kopiert von der <a href=\"http://prd.5footstep.de/Monsterhandbuch/Ork\">deutschen Pathfinder SRD</a>)</em></p>"
+        }
+      }
+    }
+  ]
+}

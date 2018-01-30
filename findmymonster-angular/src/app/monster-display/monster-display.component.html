@@ -1,4 +1,4 @@
-<div>
-  <div>Name: Orkse</div>
-  <div>Beschreibung: Beschreibsel! Blabla, lorem ipsum orkse.</div>
+<div *ngFor="let monster of monsters">
+    <h2>{{ monster.items["findmymonster:name"] }}</h2>
+    <div [innerHTML]="monster.items['findmymonster:description'].content"></div>
 </div>

@@ -6,6 +6,7 @@ import {GeneralMonsterInformation} from "../dataclasses/general-monster-informat
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/observable/throw';
+import {HippoContentResponse} from "../dataclasses/hippo-content-response";
 
 const SERVER_BASE_URL = environment.contentServerUrl;
 const CONTENT_API_URL_PART = "/api/documents";
@@ -17,9 +18,9 @@ export class HippoContentService {
 
   constructor(private httpClient: HttpClient ) { }
 
-  public getAllMonsters(): Observable<Array<GeneralMonsterInformation>> {
-    return this.httpClient.get<Array<GeneralMonsterInformation>>(this.completeServiceUrl);
-
+  public getAllMonsters(): Observable<HippoContentResponse> {
+    let stuff = this.httpClient.get<HippoContentResponse>(this.completeServiceUrl);
+    return stuff;
   }
 
 }

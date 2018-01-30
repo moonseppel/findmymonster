@@ -9,7 +9,7 @@ import {GeneralMonsterInformation} from "../dataclasses/general-monster-informat
 })
 export class MonsterDisplayComponent implements OnInit {
 
-  monsters: GeneralMonsterInformation[];
+  monsters: Array<GeneralMonsterInformation>;
 
   constructor(private contentService: HippoContentService) { }
 
@@ -17,8 +17,8 @@ export class MonsterDisplayComponent implements OnInit {
     this.contentService
       .getAllMonsters()
       .subscribe(
-        (monsters) => {
-          this.monsters = monsters;
+        (monstersResponse) => {
+          this.monsters = monstersResponse.items;
         }
       );
   }
