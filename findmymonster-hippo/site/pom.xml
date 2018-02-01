@@ -90,7 +90,16 @@
       <artifactId>hst-mock</artifactId>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>de.cloneworks</groupId>
+      <artifactId>findmymonster-angular</artifactId>
+      <version>${project.version}</version>
+      <type>pom</type>
+    </dependency>
+
   </dependencies>
+
   <build>
     <resources>
       <resource>
